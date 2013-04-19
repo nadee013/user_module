@@ -6,7 +6,8 @@
 	},
 	"devDependencies" : {
 
-		"mocha" : "1.9.x"
+		"mocha" : "1.9.x",
+		"mocha-mongo" : "0.1.x"
 	},
 	"scripts": {
 		"test" : "./node_modules/.bin/mocha -u tdd -R spec test"
