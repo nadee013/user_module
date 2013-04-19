@@ -1,0 +1,14 @@
+{
+	"name" : "tesing",
+	"version" : "1.0.0",
+	"dependencies" : {
+
+	},
+	"devDependencies" : {
+
+		"mocha" : "1.9.x"
+	},
+	"scripts": {
+		"test" : "./node_modules/.bin/mocha -u tdd -R spec test"
+	}
+}
